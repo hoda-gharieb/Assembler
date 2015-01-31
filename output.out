@@ -1,0 +1,105 @@
+    	      1
+	 ORG 100
+LOP, CLE
+     LDA Y
+     CIR
+     STA Y
+     SZE
+     BUN ONE
+     BUN ZRO
+ONE, LDA X
+     ADD P
+     STA P
+     CLE
+ZRO, LDA X
+     CIL
+     STA X
+     ISZ CTR
+     BUN LOP
+     HLT
+CTR, DEC -8
+X,   HEX 000F
+Y,   HEX 000B
+P,   HEX 0
+     END
+		 1
+	 ORG 150
+LOP, LDA Y
+     ADD X
+     STA Z
+     HLT
+X, DEC 10
+Y, DEC 5
+Z, DEC 0
+END
+1
+	 ORG 150
+STA, LDA Y
+     ADD X
+     STA Z
+     HLT
+X, DEC 10
+Y, DEC 5
+Z, DEC 0
+END
+1
+	 ORG 150
+LOP, LDA Y
+     ADDZ X
+     STA Z
+     HLT
+X, DEC 10
+Y, DEC 5
+Z, DEC 0
+END
+1
+	 ORG 150
+LOP, LDA Y
+     ADD L
+     STA Z
+     HLT
+X, DEC 10
+Y, DEC 5
+Z, DEC 0
+END
+1
+	 ORG 150
+LOP, LDA Y
+     ADD X J
+     STA Z
+     HLT
+X, DEC 10
+Y, DEC 5
+Z, DEC 0
+END
+1
+	 ORG 150
+LOP, LDA Y
+     ADD X Min K
+     STA Z
+     HLT
+X, DEC 10
+Y, DEC 5
+Z, DEC 0
+END
+1
+	 ORG 150
+LOP, LDA Y
+     ADD
+     STA Z
+     HLT
+X, DEC 10
+Y, DEC 5
+Z, DEC 0
+END
+1
+	 ORG 150
+LOP, LDA Y
+     ADD X
+     STA Z
+     HLT Z
+X, DEC 10
+Y, DEC 5
+Z, DEC 0
+END
+	 2

@@ -1,0 +1,31 @@
+cla 7800
+cle 7400
+cma 7200
+cme 7100
+cir 7080
+cil 7040
+inc 7020
+spa 7010
+sna 7008
+sza 7004
+sze 7002
+hlt 7001
+inp F800
+out F400
+ski F200
+sko F100
+ion F080
+iof F040
+
+and 0 8
+add 1 9
+lda 2 A
+sta 3 B
+bun 4 C
+bsa 5 D
+isz 6 E
+
+org
+end
+hex
+dec
